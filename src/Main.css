@@ -1,0 +1,26 @@
+@tailwind base;
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  overscroll-behavior-y: none;
+}
+
+a,
+button,
+input {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: none;
+  touch-action: manipulation;
+}
+button:focus {
+  outline: 0;
+}
+
+@tailwind components;
+
+@tailwind utilities;
